@@ -25,7 +25,7 @@ jobs:
           name: Push Docker Image to Docker Hub
           command: |
             export DOCKER_IMAGE_NAME=capstone-project
-            docker build -t  $DOCKERHUB_USERNAME/$DOCKER_IMAGE_NAME .
+            docker build -t  $DOCKERHUB_USERNAME$DOCKER_IMAGE_NAME .
             docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_PASSWORD 
             docker push  $DOCKERHUB_USERNAME/$DOCKER_IMAGE_NAME
 
