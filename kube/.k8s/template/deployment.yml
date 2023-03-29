@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: capstone-project
-        image: chandrababuchavuturi/capstone-project
+        image: anubhavmilind/capstone-project
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
