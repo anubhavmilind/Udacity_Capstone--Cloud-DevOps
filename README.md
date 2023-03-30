@@ -19,6 +19,10 @@ The project is a CI/CD pipeline for deploying a machine learning flask app to AW
 run below command to create the clusrt 
 eksctl create cluster -f cluster.yaml 
 
+Docker Link : 
+
+https://hub.docker.com/repository/docker/anubhavmilind/capstone-project/general
+
 **Git Link :**
 
 https://github.com/anubhavmilind/Udacity_Capstone--Cloud-DevOps
