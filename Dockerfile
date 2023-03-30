@@ -1,7 +1,7 @@
 FROM python:3.7.3-stretch
 
 WORKDIR /app
-success
+
 COPY . app.py /app/
 
 # hadolint ignore=DL3013
