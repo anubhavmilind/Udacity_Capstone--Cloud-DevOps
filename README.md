@@ -9,6 +9,8 @@ In this project, I applied the skills and knowledge I developed throughout the C
 ==>	Building Kubernetes clusters
 ==> Building Docker containers in pipelines
 ==> Working in AWS
+There was lot of learning via this course , like lambda ,Kubernetes integration , Cloud 9
+All labs were superb 
 
 Access the Application:-
 
