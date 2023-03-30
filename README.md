@@ -10,7 +10,6 @@ In this project, I applied the skills and knowledge I developed throughout the C
 ==> Building Docker containers in pipelines
 ==> Working in AWS
 
-!https://dl.circleci.com/status-badge/img/gh/chandrababuchavuturi/Udacity_Capstone--Cloud-DevOps/tree/main.svg?style=svg!:https://dl.circleci.com/status-badge/redirect/gh/chandrababuchavuturi/Udacity_Capstone--Cloud-DevOps/tree/main
 Access the Application:-
 
 After deployment successful , I have checked the deployment and service as follows:-
@@ -18,15 +17,13 @@ The project is a CI/CD pipeline for deploying a machine learning flask app to AW
 run below command to create the clusrt 
 eksctl create cluster -f cluster.yaml 
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/chandrababuchavuturi/Udacity_Capstone--Cloud-DevOps/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/chandrababuchavuturi/Udacity_Capstone--Cloud-DevOps/tree/main)
-
 ==>
 kubectl get pods
 NAME                                READY   STATUS    RESTARTS   AGE
 capstone-project-66dd4db478-p82sz   1/1     Running   0          14m
 capstone-project-66dd4db478-wtph6   1/1     Running   0          3m2s
 
-=for HTML <a href="https://dl.circleci.com/status-badge/redirect/gh/chandrababuchavuturi/Udacity_Capstone--Cloud-DevOps/tree/main"><img src="https://dl.circleci.com/status-badge/img/gh/chandrababuchavuturi/Udacity_Capstone--Cloud-DevOps/tree/main.svg?style=svg"></a>
+=for HTML 
 
 ==>
 kubectl get deployments
