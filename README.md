@@ -17,21 +17,15 @@ The project is a CI/CD pipeline for deploying a machine learning flask app to AW
 run below command to create the clusrt 
 eksctl create cluster -f cluster.yaml 
 
-==>
-kubectl get pods
-NAME                                READY   STATUS    RESTARTS   AGE
-capstone-project-66dd4db478-p82sz   1/1     Running   0          14m
-capstone-project-66dd4db478-wtph6   1/1     Running   0          3m2s
+**Git Link :**
 
-=for HTML 
+https://github.com/anubhavmilind/Udacity_Capstone--Cloud-DevOps
 
-==>
-kubectl get deployments
-NAME               READY   UP-TO-DATE   AVAILABLE   AGE
-capstone-project   2/2     2            2           48m
+**CircleCi Link**
 
-==>
-kubectl get services
-NAME               TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)    AGE
-capstone-project   ClusterIP   10.100.5.220   <none>        8080/TCP   48m
-kubernetes         ClusterIP   10.100.0.1     <none>        443/TCP    69m   
+https://app.circleci.com/settings/project/github/anubhavmilind/Udacity_Capstone--Cloud-DevOps/status-badges?return-to=https%3A%2F%2Fapp.circleci.com%2Fprojects%2Fproject-dashboard%2Fgithub%2Fanubhavmilind%2F
+
+****
+  Badge ****
+  
+ [![CircleCI](https://dl.circleci.com/status-badge/img/gh/anubhavmilind/Udacity_Capstone--Cloud-DevOps/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/anubhavmilind/Udacity_Capstone--Cloud-DevOps/tree/main)
